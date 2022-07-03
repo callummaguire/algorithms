@@ -1,4 +1,4 @@
-const sortColors = (nums) => {
+const sortColorsFP = (nums) => {
   var hashmap = { 0: 0, 1: 0, 2: 0 };
 
  for (let i = 0; i < nums.length; i++) {
@@ -14,10 +14,8 @@ const sortColors = (nums) => {
 
 const inputArray = [2,0,2,1,1,0];
 
-console.log(sortColors(inputArray))
 
-const sortColors1 = (nums) => {
-
+const sortColors = (nums) => {
   var hashmap = { 0: 0, 1: 0, 2: 0 };
 
   for (let i = 0; i < nums.length; i++) {
@@ -47,5 +45,3 @@ const sortColors1 = (nums) => {
 
   return nums;
 }
-
-console.log(sortColors1(inputArray));
