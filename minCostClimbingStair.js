@@ -1,3 +1,11 @@
+/*
+  place: leetcode
+  difficult level: easy
+  url: https://leetcode.com/problems/min-cost-climbing-stairs/
+  tag: [dp] 
+
+*/
+
 const minCostClimbingStairs = (costs) => {
   let total = 0
   let pointer = 0;
