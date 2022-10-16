@@ -1,5 +1,8 @@
 /*
-https://leetcode.com/problems/contains-duplicate/?envType=study-plan&id=data-structure-i
+  place: leetcode
+  difficult level: easy
+  url: https://leetcode.com/problems/contains-duplicate/?envType=study-plan&id=data-structure-i
+  tag: [hashmap]
 
 1) hashmap 
 2) loop all items
@@ -25,6 +28,8 @@ const containsDuplicate = (nums) => {
 }
 
 /*
+  runtime:
+
   nums = [1, 2,3,1]
   hashmap = {}
   if (hashmap[1]) -> line 21 hashmap[1] =1;

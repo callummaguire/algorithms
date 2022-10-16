@@ -1,3 +1,13 @@
+
+/*
+  place: leetcode
+  difficult level: medium
+  url: https://leetcode.com/problems/binary-tree-level-order-traversal/?envType=study-plan&id=level-1
+  tag: [tree, breadth-first search]
+*/
+
+
+
 const  preOrder = (node, masterMap, level) => {
   if (node === null) {
     return;

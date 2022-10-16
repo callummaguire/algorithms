@@ -1,3 +1,11 @@
+/*
+  place: leetcode
+  difficult level: hard
+  url: https://leetcode.com/problems/escape-the-spreading-fire/
+  tag:  []
+  status: not completed
+*/
+
 const getLowestMoveTurn = (grid) => {
   const array = [];
   for (let i = 0; i < grid.length; i++) {

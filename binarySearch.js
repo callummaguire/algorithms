@@ -1,3 +1,10 @@
+/* 
+  place: leetcode
+  difficult level: easy
+  url: https://leetcode.com/problems/binary-search/
+  tag: [binary search, recursive]
+*/
+
 const search1 = (array, target, start, end) => {
   if (start > end ) {
     return -1;

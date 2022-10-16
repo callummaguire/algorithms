@@ -1,3 +1,10 @@
+/* 
+  place: leetcode
+  difficult level: easy
+  url: https://leetcode.com/problems/first-bad-version/
+  tag: [binary search, recursive]
+*/
+
 const search1 = (isBadVersion, start, end, lastNumber) => {
   if (start > end) {
       return lastNumber
