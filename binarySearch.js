@@ -11,6 +11,7 @@ const search1 = (array, target, start, end) => {
   } 
 
   const mid = Math.floor((start +  end) / 2)
+  console.log(mid, array[mid]);
   if (array[mid] === target) {
     return mid;
   }
@@ -30,4 +31,4 @@ const search = (array, target) => {
 }
 
 
-console.log(binarySearch([-10,3,5,9,12]), 4);
+console.log(search([1,2,3,4,5,6,7,8,9,10,11,12],1), 1);
