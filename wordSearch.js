@@ -39,8 +39,10 @@ const exist = (board, word) => {
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board[i].length; j++) {
       if (board[i][j] === word.charAt(0)) {
-        if (spread(board, word, i, j, 0)) 
-        return true;
+        if (spread(board, word, i, j, 0))  {
+          return true;
+        }
+       
       }
     }
   }
