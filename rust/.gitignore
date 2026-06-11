@@ -1,0 +1,15 @@
+# Compilation output
+/target/
+
+# Local environment variables (where you keep secrets)
+.env
+.env.*
+!.env.example
+
+# IDE and editor specifics
+/.idea/
+/.vscode/
+*.rs.bk
+
+# Cargo lock file (Optional: keep for binaries, hide for libraries)
+# Cargo.lock
