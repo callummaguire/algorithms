@@ -37,7 +37,26 @@ pub fn letter_combinations(digits: String) -> Vec<String> {
     combinations
 }
 
+
+pub fn permentations(first_vector: String, second_vector: String) -> Vec<String> {
+    let mut output = Vec::new();
+    for char_something in first_vector.chars() {
+        for child_char in second_vector.chars() {
+            let mut new_string = char_something.to_string();
+            new_string.push(child_char);
+            output.push(new_string);
+        }
+    } 
+
+    output
+} 
+
 fn main() {
     let result = letter_combinations("235".to_string());
     println!("Combinations: {:?}", result);
+
+   let output = permentations("something".to_string(), "hello".to_string());
+
+    println!("Combinations: {:?}", output);
+
 }
